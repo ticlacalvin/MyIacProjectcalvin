@@ -9,7 +9,7 @@ resource "aws_vpc" "vpc" {
   enable_dns_hostnames = true
 
   tags = {
-    Name = "Monthe_Vpc"
+    Name = "Calvino2022_Vpc"
   }
 }
 

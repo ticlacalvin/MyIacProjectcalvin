@@ -1,3 +1,6 @@
+provider "aws" {
+  region = var.aws_region
+}
 # Create VPC
 # terraform aws create vpc
 resource "aws_vpc" "vpc" {

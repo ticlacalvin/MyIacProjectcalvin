@@ -1,3 +1,8 @@
+variable "aws_region" {
+  description = "The AWS region to create things in."
+  default     = "us-east-1"
+}
+
 variable "vpc-cidr" {
   default     = "10.0.0.0/16"
   description = "VPC CIDR Block"
